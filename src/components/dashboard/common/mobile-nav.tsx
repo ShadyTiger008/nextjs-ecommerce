@@ -6,9 +6,9 @@ import { Menu, Package2 } from "lucide-react";
 import Link from "next/link";
 
 import { navItems } from "./sidebar";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import { Button } from "./ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import { Sheet, SheetContent, SheetTrigger } from "~/components/ui/sheet";
+import { Button } from "~/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 
 export default function MobileNav() {
   const pathname = usePathname();

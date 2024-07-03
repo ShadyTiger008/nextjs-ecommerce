@@ -7,11 +7,11 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "../components/ui/dropdown-menu";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
-import MobileNav from "./mobile-nav";
-import { ModeToggle } from "./mode-toggle";
+} from "~/components/ui/dropdown-menu";
+import { ModeToggle } from "../dashboard/common/mode-toggle";
+import { Button } from "../ui/button";
+import MobileNav from "../dashboard/common/mobile-nav";
+import { Input } from "../ui/input";
 
 export default function Header() {
   return (
