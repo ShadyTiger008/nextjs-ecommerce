@@ -29,7 +29,7 @@ const leftSideLinks = [
 
 const Header = (props: Props) => {
   return (
-    <section className="flex flex-row items-center justify-between border border-[#ECECEC] text-gray-500 text-xs px-20 py-2 font-semibold">
+    <section className="hidden md:flex flex-row items-center justify-between border border-b text-mutedTxt  text-xs px-20 py-2 font-semibold">
       {/* Left side links */}
       <div className='flex flex-row gap-2 divide-x-2'>
         {leftSideLinks.map((link) => (

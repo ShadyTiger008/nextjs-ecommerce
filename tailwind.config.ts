@@ -26,6 +26,7 @@ const config = {
         foreground: "hsl(var(--foreground))",
         theme: "#3BB77E",
         text: "#ECECEC",
+        mutedTxt: "#6B7280",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
