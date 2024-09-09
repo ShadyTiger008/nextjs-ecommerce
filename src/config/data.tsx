@@ -1,8 +1,15 @@
+import { CiShop } from "react-icons/ci";
+import { IoHomeOutline } from "react-icons/io5";
+import { MdOutlineScreenSearchDesktop } from "react-icons/md";
+import { FaUsers } from "react-icons/fa6";
+import { Contact, Layers, Rss, SquareMenu } from "lucide-react";
+
 export const navLinks = [
   {
     id: 1,
     label: "Home",
     path: "/",
+    icon: <IoHomeOutline />,
     options: [
       {
         id: "1a",
@@ -35,12 +42,14 @@ export const navLinks = [
     id: 2,
     label: "About",
     path: "/about",
+    icon: <MdOutlineScreenSearchDesktop />,
     options: [],
   },
   {
     id: 3,
     label: "Shop",
     path: "/shop",
+    icon: <CiShop />,
     options: [
       {
         id: "3a",
@@ -71,6 +80,7 @@ export const navLinks = [
   {
     id: 4,
     label: "Vendors",
+    icon: <FaUsers />,
     path: "/vendors",
     options: [
       {
@@ -96,6 +106,7 @@ export const navLinks = [
   {
     id: 5,
     label: "Mega menu",
+    icon: <SquareMenu />,
     path: "/menu",
     options: [
       {
@@ -127,6 +138,7 @@ export const navLinks = [
   {
     id: 6,
     label: "Blog",
+    icon: <Rss />,
     path: "/blog",
     options: [
       {
@@ -158,6 +170,7 @@ export const navLinks = [
   {
     id: 7,
     label: "Pages",
+    icon: <Layers />,
     path: "/pages",
     options: [
       {
@@ -190,6 +203,7 @@ export const navLinks = [
     id: 8,
     label: "Contact",
     path: "/contact",
+    icon: <Contact />,
     options: [],
   },
 ];

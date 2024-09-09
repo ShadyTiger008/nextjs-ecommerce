@@ -24,16 +24,16 @@ type Props = {};
 
 const HeaderMid = (props: Props) => {
   return (
-    <section className="flex flex-row justify-between gap-10 border border-b px-20 py-8">
+    <section className="hidden flex-row justify-between gap-5 border border-b px-5 py-8 lg:flex xl:gap-10 xl:px-20">
       <Image
         src="/images/logo.png"
         alt="logo"
-        width={150}
+        width={200}
         height={100}
         className="mr-5"
       />
 
-      <div className="flex w-full flex-row space-x-2 rounded-md border border-theme px-3 text-xs justify-center items-center">
+      <div className="flex w-full flex-row items-center justify-center space-x-2 rounded-md border border-theme px-3 text-xs">
         <Select>
           <SelectTrigger className="w-[150px] border-0 text-xs outline-none focus:shadow-none focus:outline-none focus:ring-0 focus:ring-offset-0">
             <SelectValue placeholder="All Categories" />
@@ -71,15 +71,30 @@ const HeaderMid = (props: Props) => {
         </div>
 
         <div className="flex flex-row items-center justify-center gap-2">
-          <CompareIcon />
+          <div className="relative">
+            <CompareIcon />
+            <span className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-theme p-1 text-center text-xs text-white">
+              3
+            </span>
+          </div>
           <span>Compare</span>
         </div>
         <div className="flex flex-row items-center justify-center gap-2">
-          <HeartIcon />
+          <div className="relative">
+            <HeartIcon />
+            <span className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-theme p-1 text-center text-xs text-white">
+              6
+            </span>
+          </div>
           <span>Wishlist</span>
         </div>
         <div className="flex flex-row items-center justify-center gap-2">
-          <CartIcon />
+          <div className="relative">
+            <CartIcon />
+            <span className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-theme p-1 text-center text-xs text-white">
+              2
+            </span>
+          </div>
           <span>Cart</span>
         </div>
         <div className="flex flex-row items-center justify-center gap-2">
