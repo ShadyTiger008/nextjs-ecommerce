@@ -22,7 +22,7 @@ import { Input } from "../ui/input";
 
 type Props = {};
 
-const Navbar = (props: Props) => {
+const HeaderMid = (props: Props) => {
   return (
     <section className="flex flex-row justify-between gap-10 border border-b px-20 py-8">
       <Image
@@ -91,4 +91,4 @@ const Navbar = (props: Props) => {
   );
 };
 
-export default Navbar;
+export default HeaderMid;
