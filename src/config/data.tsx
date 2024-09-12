@@ -1,7 +1,7 @@
 import { CiShop } from "react-icons/ci";
 import { IoHomeOutline } from "react-icons/io5";
 import { MdOutlineScreenSearchDesktop } from "react-icons/md";
-import { FaUsers } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaPinterestP, FaTwitter, FaUsers, FaYoutube } from "react-icons/fa6";
 import { Contact, Layers, Rss, SquareMenu } from "lucide-react";
 
 export const navLinks = [
@@ -207,3 +207,323 @@ export const navLinks = [
     options: [],
   },
 ];
+
+export const featuredCategories = [
+  {
+    id: 1,
+    title: "Cake & Milk",
+    path: "/shop/cake&milk",
+    description: "Discover our wide selection of electronics products.",
+  },
+  {
+    id: 2,
+    title: "Coffee & Teas",
+    path: "/shop/coffee&teas",
+    description: "Discover our wide selection of electronics products.",
+  },
+  {
+    id: 3,
+    title: "Pet Foods",
+    path: "/shop/pet-foods",
+    description: "Discover our wide selection of electronics products.",
+  },
+  {
+    id: 4,
+    title: "Vegetables",
+    path: "/shop/vegetables",
+    description: "Discover our wide selection of electronics products.",
+  },
+];
+
+export const categories = [
+  {
+    id: 1,
+    title: "Cake & Milk",
+    path: "/shop/cake&milk",
+    quantity: "26 items",
+    image: "",
+    bgColor: "#F2FCE4",
+  },
+  {
+    id: 2,
+    title: "Orange & Kiwi",
+    path: "/shop/orange&kiwi",
+    quantity: "28 items",
+    image: "",
+    bgColor: "#FFFCEB",
+  },
+  {
+    id: 3,
+    title: "Peach",
+    path: "/shop/peach",
+    quantity: "14 items",
+    image: "",
+    bgColor: "#ECFFEC",
+  },
+  {
+    id: 4,
+    title: "Red apple",
+    path: "/shop/red-apple",
+    quantity: "54 items",
+    image: "",
+    bgColor: "#FEEFEA",
+  },
+  {
+    id: 5,
+    title: "Snack",
+    path: "/shop/snacks",
+    quantity: "56 items",
+    image: "",
+    bgColor: "#FFF3EB",
+  },
+  {
+    id: 6,
+    title: "Vegetables",
+    path: "/shop/vegetables",
+    quantity: "72 items",
+    image: "",
+    bgColor: "#FFF3FF",
+  },
+  {
+    id: 7,
+    title: "Strawberry",
+    path: "/shop/strawberry",
+    quantity: "36 items",
+    image: "",
+    bgColor: "#F2FCE4",
+  },
+  {
+    id: 8,
+    title: "Black plum",
+    path: "/shop/black-plum",
+    quantity: "123 items",
+    image: "",
+    bgColor: "#FEEFEA",
+  },
+  {
+    id: 9,
+    title: "Custard apple",
+    path: "/shop/custard-apple",
+    quantity: "34 items",
+    image: "",
+    bgColor: "#FFFCEB",
+  },
+  {
+    id: 10,
+    title: "Coffee & Tea",
+    path: "/shop/coffee&tea",
+    quantity: "89 items",
+    image: "",
+    bgColor: "#FEEFEA",
+  },
+];
+
+export const footerDescriptions = [
+  {
+    id: 1,
+    title: "Address",
+    description: "5171 W Campbell Ave undefined Kent, Utah 53127 United States",
+    icon: "",
+  },
+  {
+    id: 2,
+    title: "Call Us",
+    description: "(+91) - 540-025-124553",
+    icon: "",
+  },
+  {
+    id: 3,
+    title: "Email",
+    description: "sale@Nest.com",
+    icon: "",
+  },
+  {
+    id: 4,
+    title: "Hours",
+    description: "10:00 - 18:00, Mon - Sat",
+    icon: "",
+  },
+];
+
+export const companyLinks = [
+  {
+    id: 1,
+    title: "About Us",
+    link: "/about-us",
+  },
+  {
+    id: 2,
+    title: "Delivery Information",
+    link: "/delivery-information",
+  },
+  {
+    id: 3,
+    title: "Privacy Policy",
+    link: "/privacy-policy",
+  },
+  {
+    id: 4,
+    title: "Terms & Conditions",
+    link: "/terms-conditions",
+  },
+  {
+    id: 5,
+    title: "Contact Us",
+    link: "/contact-us",
+  },
+  {
+    id: 6,
+    title: "Support Center",
+    link: "/support-center",
+  },
+  {
+    id: 7,
+    title: "Careers",
+    link: "/careers",
+  },
+]
+
+export const footerLinks = [
+  {
+    id: 1,
+    title: "Account",
+    subLinks: [
+      { id: 1, title: "Sign In", link: "/login" },
+      { id: 2, title: "View Cart", link: "/cart" },
+      { id: 3, title: "My Wishlist", link: "/wishlist" },
+      { id: 4, title: "Track My Order", link: "/track-order" },
+      { id: 5, title: "Help Ticket", link: "/help" },
+      { id: 6, title: "Shipping Details", link: "/shipping" },
+      { id: 7, title: "Compare Products", link: "/compare" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Corporate",
+    subLinks: [
+      { id: 1, title: "Become a Vendor", link: "/become-vendor" },
+      { id: 2, title: "Affiliate Program", link: "/affiliate-program" },
+      { id: 3, title: "Farm Business", link: "/farm-business" },
+      { id: 4, title: "Farm Careers", link: "/farm-careers" },
+      { id: 5, title: "Our Suppliers", link: "/suppliers" },
+      { id: 6, title: "Accessibility", link: "/accessibility" },
+      { id: 7, title: "Promotions", link: "/promotions" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Popular",
+    subLinks: [
+      { id: 1, title: "Milk & Flavoured Milk", link: "/mil&flavoured-milk" },
+      { id: 2, title: "Butter and Margarine", link: "/butter&margarine" },
+      { id: 3, title: "Eggs Substitutes", link: "/eggs-substitutes" },
+      { id: 4, title: "Marmalades", link: "/marmalades" },
+      { id: 5, title: "Sour Cream and Dips", link: "/sour-cream&dips" },
+      { id: 6, title: "Tea & Kombucha", link: "/tea&kombucha" },
+      { id: 7, title: "Cheese", link: "/cheese" },
+    ],
+  },
+];
+
+export const paymentGateways = [
+  {
+    id: 1,
+    title: "Visa",
+    logo: "/images/payment-gateways/visa.png",
+    link: "https://www.visa.com",
+    description: "Securely accept payments via Visa.",
+  },
+  {
+    id: 2,
+    title: "MasterCard",
+    logo: "/images/payment-gateways/mastercard.png",
+    link: "https://www.mastercard.com",
+    description: "Securely accept payments via MasterCard.",
+  },
+  {
+    id: 3,
+    title: "Maestro",
+    logo: "/images/payment-gateways/maestro.png",
+    link: "https://www.maestrocard.com",
+    description: "Securely accept payments via Maestro.",
+  },
+  {
+    id: 4,
+    title: "American Express",
+    logo: "/images/payment-gateways/american-express.png",
+    link: "https://www.americanexpress.com",
+    description: "Securely accept payments via American Express.",
+  },
+];
+
+export const contactDetails = [
+  {id:1, title: "1900 - 6666", description: "Working 8:00 - 22:00", link: ""},
+  {id:2, title: "1900 - 8888", description: "24/7 Support Center", link: ""},
+]
+
+export const socialMediaLinks = [
+  {
+    id: 1,
+    title: "Facebook",
+    link: "https://www.facebook.com",
+    icon: <FaFacebookF />,
+  },
+  {
+    id: 2,
+    title: "Twitter",
+    link: "https://www.twitter.com",
+    icon: <FaTwitter />,
+  },
+  {
+    id: 3,
+    title: "Instagram",
+    link: "https://www.instagram.com",
+    icon: <FaInstagram />,
+  },
+  {
+    id: 4,
+    title: "Pinterest",
+    link: "https://www.pinterest.com",
+    icon: <FaPinterestP />,
+  },
+  {
+    id: 5,
+    title: "Youtube",
+    link: "https://www.youtube.com",
+    icon: <FaYoutube />,
+  },
+];
+
+export const featureDetails = [
+  {
+    id: 1,
+    title: "Best prices & offers",
+    description: "orders ₹500 or more",
+    image: "",
+  },
+  {
+    id: 2,
+    title: "Free Delivery",
+    description: "24/7 amazing service",
+    image: "",
+  },
+  {
+    id: 3,
+    title: "Great daily deal",
+    description: "When you sign up",
+    image: "",
+  },
+  {
+    id: 4,
+    title: "Wide assortment",
+    description: "Mega Discounts",
+    image: "",
+  },
+  {
+    id: 5,
+    title: "Easy Returns",
+    description: "Within 30 days",
+    image: "",
+  },
+]
+
