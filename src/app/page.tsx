@@ -1,3 +1,4 @@
+import DealsOfTheDay from "~/components/@homepage/deals-of-the-day";
 import FeaturedProducts from "~/components/@homepage/featured-products";
 import Header from "~/components/@homepage/Header";
 import Hero from "~/components/@homepage/hero";
@@ -13,6 +14,7 @@ export default function Homepage() {
       <Hero />
       <ShopByCategory />
       <TopProducts />
+      <DealsOfTheDay/>
       <FeaturedProducts/>
       <Newsletter />
       <Footer />

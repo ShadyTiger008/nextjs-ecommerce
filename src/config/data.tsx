@@ -667,3 +667,50 @@ export const topRated = [
     rating: 4.6,
   },
 ];
+
+export const dealsOfTheDayProducts = [
+  {
+    id: 1,
+    title: `Seeds of Change Organic Quinoa,
+Brown, & Red Rice`,
+    description: "NestFood",
+    currentPrice: "₹320",
+    actualPrice: "₹450",
+    image: "/assets/products/quinoa.png",
+    link: "/product/pineapple",
+    rating: 4.3,
+  },
+  {
+    id: 2,
+    title: `Perdue Simply Smart Organics
+Gluten Free`,
+    description: "Old El Paso",
+    currentPrice: "₹150",
+    actualPrice: "₹230",
+    image: "/assets/products/organics.png",
+    link: "/product/sweet-potatoes",
+    rating: 4.4,
+  },
+  {
+    id: 3,
+    title: `Signature Wood-Fired Mushroom
+and Caramelized`,
+    description: "Progresso",
+    currentPrice: "₹99",
+    actualPrice: "₹399",
+    image: "/assets/products/mushroom.png",
+    link: "/product/sweet-potatoes",
+    rating: 3.1,
+  },
+  {
+    id: 4,
+    title: `Simply Lemonade with Raspberry
+Juice`,
+    description: "Yoplait",
+    currentPrice: "345",
+    actualPrice: "₹450",
+    image: "/assets/products/lemonade.png",
+    link: "/product/sweet-potatoes",
+    rating: 4.5,
+  },
+];
