@@ -7,10 +7,10 @@ type Props = {};
 
 const NewsLetter = (props: Props) => {
   return (
-    <section className="relative flex h-80 flex-col items-center justify-between space-y-8 rounded-xl bg-[#daf2e7] mx-20 px-20 md:flex-row md:space-y-0">
+    <section className="relative flex h-80 flex-col items-center justify-between space-y-8 rounded-xl bg-[#daf2e7] mx-5 md:mx-20 px-5 md:px-20 md:flex-row md:space-y-0">
       {/* Left Section */}
-      <div className="space-y-6 pr-5 md:w-1/2">
-        <h2 className="text-3xl font-semibold text-[#264653] md:text-4xl">
+      <div className="space-y-6 pr-5 md:w-1/2 z-10 flex flex-col justify-center my-auto md:my-0">
+        <h2 className="text-lg md:text-2xl font-semibold text-[#264653] lg:text-4xl">
           Stay Home & Get Your Daily Needs from Our Shop
         </h2>
         <p className="text-lg text-[#6c757d]">
@@ -33,7 +33,7 @@ const NewsLetter = (props: Props) => {
       </div>
 
       {/* Right Section */}
-      <div className="absolute -bottom-16 right-10 h-[400px] w-full md:h-[400px] md:w-[500px]">
+      <div className="hidden md:block absolute -bottom-16 right-10 h-[400px] w-full md:h-[400px] md:w-[500px]">
         <Image
           src="/assets/footer-banner.png"
           alt="Footer Banner"
