@@ -1,7 +1,6 @@
 import React from 'react'
-import HeaderTop from '../shared/header-top';
-import HeaderMid from '../shared/header-mid';
-import HeaderBottom from '../shared/header-bottom';
+import HeaderTop from '../header/header-top';
+import HeaderMid from '../header/header-mid';
 import { HeartIcon, Menu } from 'lucide-react';
 import Image from 'next/image';
 import { CartIcon } from '../icons';
@@ -9,6 +8,7 @@ import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHe
 import { Button } from '../ui/button';
 import { navLinks } from '~/config/data';
 import Link from 'next/link';
+import HeaderBottom from '../header/header-bottom';
 
 type Props = {}
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { ChevronDown, LayoutDashboard } from "lucide-react";
 import { Button } from "../ui/button";
-import { Navigation } from "./navigation";
+import { Navigation } from "../shared/navigation";
 
 type Props = {};
 

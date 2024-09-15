@@ -2,7 +2,7 @@ import { CiShop } from "react-icons/ci";
 import { IoHomeOutline } from "react-icons/io5";
 import { MdOutlineScreenSearchDesktop } from "react-icons/md";
 import { FaFacebookF, FaInstagram, FaPinterestP, FaTwitter, FaUsers, FaYoutube } from "react-icons/fa6";
-import { Contact, Layers, Rss, SquareMenu } from "lucide-react";
+import { Clock, Contact, Headset, Layers, MapPin, Rss, Send, SquareMenu } from "lucide-react";
 
 export const navLinks = [
   {
@@ -323,25 +323,25 @@ export const footerDescriptions = [
     id: 1,
     title: "Address",
     description: "5171 W Campbell Ave undefined Kent, Utah 53127 United States",
-    icon: "",
+    icon: <MapPin className="w-5 h-5"/>,
   },
   {
     id: 2,
     title: "Call Us",
     description: "(+91) - 540-025-124553",
-    icon: "",
+    icon: <Headset className="w-5 h-5"/>,
   },
   {
     id: 3,
     title: "Email",
     description: "sale@Nest.com",
-    icon: "",
+    icon: <Send className="w-5 h-5"/>,
   },
   {
     id: 4,
     title: "Hours",
     description: "10:00 - 18:00, Mon - Sat",
-    icon: "",
+    icon: <Clock className="w-5 h-5"/>,
   },
 ];
 
@@ -499,31 +499,31 @@ export const featureDetails = [
     id: 1,
     title: "Best prices & offers",
     description: "orders ₹500 or more",
-    image: "",
+    image: "/assets/offer.png",
   },
   {
     id: 2,
     title: "Free Delivery",
     description: "24/7 amazing service",
-    image: "",
+    image: "/assets/free-delivery.png",
   },
   {
     id: 3,
     title: "Great daily deal",
     description: "When you sign up",
-    image: "",
+    image: "/assets/daily-deal.png",
   },
   {
     id: 4,
     title: "Wide assortment",
     description: "Mega Discounts",
-    image: "",
+    image: "/assets/assortment.png",
   },
   {
     id: 5,
     title: "Easy Returns",
     description: "Within 30 days",
-    image: "",
+    image: "/assets/returns.png",
   },
 ]
 
