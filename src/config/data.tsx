@@ -1,8 +1,24 @@
 import { CiShop } from "react-icons/ci";
 import { IoHomeOutline } from "react-icons/io5";
 import { MdOutlineScreenSearchDesktop } from "react-icons/md";
-import { FaFacebookF, FaInstagram, FaPinterestP, FaTwitter, FaUsers, FaYoutube } from "react-icons/fa6";
-import { Clock, Contact, Headset, Layers, MapPin, Rss, Send, SquareMenu } from "lucide-react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaPinterestP,
+  FaTwitter,
+  FaUsers,
+  FaYoutube,
+} from "react-icons/fa6";
+import {
+  Clock,
+  Contact,
+  Headset,
+  Layers,
+  MapPin,
+  Rss,
+  Send,
+  SquareMenu,
+} from "lucide-react";
 
 export const navLinks = [
   {
@@ -323,25 +339,25 @@ export const footerDescriptions = [
     id: 1,
     title: "Address",
     description: "5171 W Campbell Ave undefined Kent, Utah 53127 United States",
-    icon: <MapPin className="w-5 h-5"/>,
+    icon: <MapPin className="h-5 w-5" />,
   },
   {
     id: 2,
     title: "Call Us",
     description: "(+91) - 540-025-124553",
-    icon: <Headset className="w-5 h-5"/>,
+    icon: <Headset className="h-5 w-5" />,
   },
   {
     id: 3,
     title: "Email",
     description: "sale@Nest.com",
-    icon: <Send className="w-5 h-5"/>,
+    icon: <Send className="h-5 w-5" />,
   },
   {
     id: 4,
     title: "Hours",
     description: "10:00 - 18:00, Mon - Sat",
-    icon: <Clock className="w-5 h-5"/>,
+    icon: <Clock className="h-5 w-5" />,
   },
 ];
 
@@ -381,7 +397,7 @@ export const companyLinks = [
     title: "Careers",
     link: "/careers",
   },
-]
+];
 
 export const footerLinks = [
   {
@@ -429,37 +445,42 @@ export const paymentGateways = [
   {
     id: 1,
     title: "Visa",
-    logo: "/images/payment-gateways/visa.png",
+    logo: "/assets/payment-gateways/visa.png",
     link: "https://www.visa.com",
     description: "Securely accept payments via Visa.",
   },
   {
     id: 2,
     title: "MasterCard",
-    logo: "/images/payment-gateways/mastercard.png",
+    logo: "/assets/payment-gateways/mastercard.png",
     link: "https://www.mastercard.com",
     description: "Securely accept payments via MasterCard.",
   },
   {
     id: 3,
     title: "Maestro",
-    logo: "/images/payment-gateways/maestro.png",
+    logo: "/assets/payment-gateways/maestro.png",
     link: "https://www.maestrocard.com",
     description: "Securely accept payments via Maestro.",
   },
   {
     id: 4,
     title: "American Express",
-    logo: "/images/payment-gateways/american-express.png",
+    logo: "/assets/payment-gateways/american-express.png",
     link: "https://www.americanexpress.com",
     description: "Securely accept payments via American Express.",
   },
 ];
 
 export const contactDetails = [
-  {id:1, title: "1900 - 6666", description: "Working 8:00 - 22:00", link: ""},
-  {id:2, title: "1900 - 8888", description: "24/7 Support Center", link: ""},
-]
+  {
+    id: 1,
+    title: "1900 - 6666",
+    description: "Working 8:00 - 22:00",
+    link: "",
+  },
+  { id: 2, title: "1900 - 8888", description: "24/7 Support Center", link: "" },
+];
 
 export const socialMediaLinks = [
   {
@@ -525,5 +546,124 @@ export const featureDetails = [
     description: "Within 30 days",
     image: "/assets/returns.png",
   },
-]
+];
 
+export const topSellingProducts = [
+  {
+    id: 1,
+    title: "Fresh Organic Carrot",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/carrot.png",
+    link: "/product/carrot",
+    rating: 4.5,
+  },
+  {
+    id: 2,
+    title: "Farm Fresh Capsicum",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/capcicum.png",
+    link: "/product/capcicum",
+    rating: 4.3,
+  },
+  {
+    id: 3,
+    title: "Juicy Alphonso Mango",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/mango.png",
+    link: "/product/mango",
+    rating: 4.6,
+  },
+];
+
+export const trendingProducts = [
+  {
+    id: 1,
+    title: "Ripe Organic Banana",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/banana.png",
+    link: "/product/banana",
+    rating: 4.7,
+  },
+  {
+    id: 2,
+    title: "Fresh Red Fruits Mix",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/red-fruit.png",
+    link: "/product/red-fruit",
+    rating: 4.6,
+  },
+  {
+    id: 3,
+    title: "Ground Organic Cinnamon",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/cinnamon.png",
+    link: "/product/cinnamon",
+    rating: 4.4,
+  },
+];
+
+export const recentlyAdded = [
+  {
+    id: 1,
+    title: "Pepperidge Farm Cookies",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/pepperidge.png",
+    link: "/product/pepperidge",
+    rating: 4.3,
+  },
+  {
+    id: 2,
+    title: "Mixed Berry Blend",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/berry-blend.png",
+    link: "/product/berry-blend",
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    title: "Oroweat Whole Grain Bread",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/oroweat.png",
+    link: "/product/oroweat",
+    rating: 4.4,
+  },
+];
+
+export const topRated = [
+  {
+    id: 1,
+    title: "Buffalo Wings Sauce",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/buffalo-wings.png",
+    link: "/product/buffalo-wings",
+    rating: 4.7,
+  },
+  {
+    id: 2,
+    title: "Kettle Corn Popcorn",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/kettle-corn.png",
+    link: "/product/kettle-corn",
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    title: "Fresh Juicy Orange",
+    currentPrice: "₹150",
+    actualPrice: "₹170",
+    image: "/assets/products/orange.png",
+    link: "/product/orange",
+    rating: 4.6,
+  },
+];
