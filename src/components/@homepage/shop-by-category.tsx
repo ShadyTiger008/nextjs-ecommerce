@@ -1,4 +1,5 @@
 import React from 'react'
+import FeaturedBanners from './child/featured-banners';
 
 type Props = {}
 
@@ -7,7 +8,7 @@ const ShopByCategory = (props: Props) => {
     <section>
       <div>
         <h4>Featured Categories</h4>
-        
+        <FeaturedBanners/>
       </div>
     </section>
   );

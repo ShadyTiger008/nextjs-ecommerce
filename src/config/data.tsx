@@ -260,15 +260,15 @@ export const shopNowBanners = [
   },
   {
     id: 2,
-    title: "Everyday Fresh & Clean with Our Products",
+    title: "Make your Breakfast Healthy and Easy",
     image: "/assets/healthy-easy.png",
     link: "/healthy-easy",
   },
   {
     id: 3,
-    title: "Everyday Fresh & Clean with Our Products",
+    title: "The best Organic Products Online",
     image: "/assets/organic-product.png",
-    link: "organic-product",
+    link: "/organic-product",
   },
 ];
 
