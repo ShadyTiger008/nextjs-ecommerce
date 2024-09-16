@@ -251,6 +251,27 @@ export const featuredCategories = [
   },
 ];
 
+export const shopNowBanners = [
+  {
+    id: 1,
+    title: "Everyday Fresh & Clean with Our Products",
+    image: "/assets/fresh-clean.png",
+    link: "/fresh-clean",
+  },
+  {
+    id: 2,
+    title: "Everyday Fresh & Clean with Our Products",
+    image: "/assets/healthy-easy.png",
+    link: "/healthy-easy",
+  },
+  {
+    id: 3,
+    title: "Everyday Fresh & Clean with Our Products",
+    image: "/assets/organic-product.png",
+    link: "organic-product",
+  },
+];
+
 export const categories = [
   {
     id: 1,
@@ -712,5 +733,68 @@ Juice`,
     image: "/assets/products/lemonade.png",
     link: "/product/sweet-potatoes",
     rating: 4.5,
+  },
+];
+
+export const bestSellProducts = [
+  {
+    id: 1,
+    title: `All Natural Italian-Style
+Chicken Meatballs`,
+    currentPrice: "₹1450",
+    actualPrice: "₹2000",
+    sold: "90",
+    quantity: "120",
+    image: "/assets/products/chicken-meatballs.png",
+    link: "/product/chicken-metaballs",
+    seller: "Hodo Foods",
+    rating: 4.8,
+    tag: "Save 35%",
+    tagClr: "#3BB77E",
+  },
+  {
+    id: 2,
+    title: `Angie’s Boomchickapop Sweet
+and womnies`,
+    currentPrice: "₹350",
+    actualPrice: "₹500",
+    sold: "90",
+    quantity: "120",
+    image: "/assets/products/boomchickapop.png",
+    link: "/product/boomchickapop",
+    seller: "Hodo Foods",
+    rating: 4.2,
+    tag: "Sale",
+    tagClr: "#67BCEE",
+  },
+  {
+    id: 3,
+    title: `Foster Farms Takeout Crispy
+Classic`,
+    currentPrice: "₹1250",
+    actualPrice: "₹1500",
+    sold: "90",
+    quantity: "120",
+    image: "/assets/products/veggie-pop.png",
+    link: "/product/veggie-pop",
+    seller: "Hodo Foods",
+    rating: 3.3,
+    tag: "Best Sale",
+    tagClr: "#F59758",
+  },
+  {
+    id: 4,
+    title: `Blue Diamond Almonds Lightly
+Salted`,
+    currentPrice: "₹450",
+    actualPrice: "₹1000",
+    sold: "90",
+    quantity: "120",
+    image: "/assets/products/almonds.png",
+    link: "/product/almonds",
+    seller: "Hodo Foods",
+    rating: 4.1,
+    tag: "Save 15%",
+    tagClr: "#F74B81",
   },
 ];
