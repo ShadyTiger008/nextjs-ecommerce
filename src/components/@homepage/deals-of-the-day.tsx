@@ -8,7 +8,7 @@ const DealsOfTheDay = (props: Props) => {
   return (
     <div className="mx-4 mb-16 mt-8 flex flex-col gap-6 lg:mx-20 lg:mb-32 lg:mt-10">
       {/* Responsive heading */}
-      <h2 className="text-center text-xl font-semibold lg:text-2xl">
+      <h2 className="text-xl font-semibold lg:text-2xl">
         Deals Of The Day
       </h2>
 

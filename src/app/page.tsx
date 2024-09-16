@@ -1,3 +1,4 @@
+import BestSellers from "~/components/@homepage/child/best-sellers";
 import DealsOfTheDay from "~/components/@homepage/deals-of-the-day";
 import FeaturedProducts from "~/components/@homepage/featured-products";
 import Header from "~/components/@homepage/Header";
@@ -10,12 +11,13 @@ import Newsletter from "~/components/shared/newsletter";
 export default function Homepage() {
   return (
     <main className="">
-      <Header/>
+      <Header />
       <Hero />
       <ShopByCategory />
       <TopProducts />
-      <DealsOfTheDay/>
-      <FeaturedProducts/>
+      <BestSellers />
+      <DealsOfTheDay />
+      <FeaturedProducts />
       <Newsletter />
       <Footer />
     </main>

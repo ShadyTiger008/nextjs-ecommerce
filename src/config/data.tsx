@@ -707,7 +707,7 @@ and Caramelized`,
     title: `Simply Lemonade with Raspberry
 Juice`,
     description: "Yoplait",
-    currentPrice: "345",
+    currentPrice: "₹345",
     actualPrice: "₹450",
     image: "/assets/products/lemonade.png",
     link: "/product/sweet-potatoes",

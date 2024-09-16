@@ -7,10 +7,10 @@ type Props = {};
 
 const FooterMid = (props: Props) => {
   return (
-    <section className="bg-yellow-30 flex flex-row justify-between">
+    <section className="bg-yellow-30 flex flex-wrap flex-col lg:flex-row justify-between px-5 py-5">
       {/* Left Section: Logo and Descriptions */}
-      <div className="flex flex-row gap-10 space-y-5">
-        <div className="flex flex-col w-72">
+      <div className="flex flex-col lg:flex-row gap-10 lg:space-y-0 space-y-5 w-full lg:w-auto">
+        <div className="flex flex-col w-full lg:w-72">
           <div className="flex flex-col gap-3">
             <Image
               src="/images/logo.png"
@@ -26,7 +26,7 @@ const FooterMid = (props: Props) => {
 
           <div className="mt-5 flex flex-col gap-2">
             {footerDescriptions.map((item) => (
-              <div key={item.id} className="flex items- gap-2">
+              <div key={item.id} className="flex items-center gap-2">
                 <span className="text-[#2a9d8f]">{item.icon}</span>
                 <div className="text-sm text-gray-600">
                   <span className="font-semibold">{item.title}: </span>
@@ -38,7 +38,7 @@ const FooterMid = (props: Props) => {
         </div>
 
         {/* Middle Section: Company Links */}
-        <div className="flex flex-col w-40">
+        <div className="flex flex-col w-full lg:w-40">
           <h4 className="text-gray-500 text-sm mb-2">Company</h4>
           <div className="flex flex-col space-y-2">
             {companyLinks.map((link) => (
@@ -55,9 +55,9 @@ const FooterMid = (props: Props) => {
       </div>
 
       {/* Right Section: Footer Links */}
-      <div className="flex flex-row justify-between w-full">
+      <div className="flex flex-wrap justify-between w-full lg:w-auto gap-10 mt-10 lg:mt-0">
         {footerLinks.map((item) => (
-          <div key={item.id} className="w-full">
+          <div key={item.id} className="w-full sm:w-1/2 lg:w-auto">
             <h4 className="mb-2 text-xl font-semibold text-gray-800">
               {item.title}
             </h4>
@@ -78,20 +78,20 @@ const FooterMid = (props: Props) => {
           </div>
         ))}
 
-        <div className="flex flex-col space-y-5 w-full">
+        <div className="flex flex-col space-y-5 w-full sm:w-1/2 lg:w-auto">
           <h2 className="font-semibold text-xl">Install App</h2>
           <span className="text-sm">From App Store or Google Play</span>
-          <div className="flex flex-row w-full gap-2">
+          <div className="flex flex-row gap-2">
             <Image
               src="/assets/download-appstore.png"
-              alt="logo"
+              alt="app store"
               width={100}
               height={50}
               className=""
             />
             <Image
               src="/assets/download-googleplay.png"
-              alt="logo"
+              alt="google play"
               width={100}
               height={50}
               className=""
@@ -102,7 +102,7 @@ const FooterMid = (props: Props) => {
 
           <Image
             src="/assets/payment-methods.png"
-            alt="logo"
+            alt="payment methods"
             width={200}
             height={100}
             className="mr-5"

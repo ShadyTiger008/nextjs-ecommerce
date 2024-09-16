@@ -7,7 +7,7 @@ type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <footer className="px-20">
+    <footer className="px-5 md:px-20">
       <FooterTop />
       <FooterMid />
       <FooterBottom />
